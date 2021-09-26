@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.title{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 37px;
+    line-height: 1.2;
+    color: #22d1b5;
+    font-size: 30px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.redcard{
+    background-color: white;
+    margin-top: 20px;
+    padding: 40px;
+    padding-inline: 80px;
+    border-radius: 10px;
+    padding-bottom: 100px;
+    box-shadow: 0px 0px 15px 0px #8888;
+            
+}
+label{
+    color: red;
+    /* margin-bottom: 0.5rem; */
+}
+
+
+
+input,textarea{
+    margin-top: 2.5rem;
+    border: none;
+    outline: none;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+}
+textarea{
+    overflow: hidden;
+}
+input:focus{
+    outline-width: 0;
+}
+button, input {
+    overflow: visible;
+}
+select{
+    margin-top: 2.5rem;
+    border: none;
+    color: #77787a ;
+    font-size: 14px;
+    font-weight: 300;
+}
+select:focus{
+    outline-width: 0;
+}
+span>input {
+    width: auto;
+}
+.faqagree {
+    font-size: 14px;
+    font-weight: 300;
+    color: #77787a !important;
+}
+a{
+    text-decoration: none !important;
+    color: #22d1b5 !important;
+}
+.btn{
+    width: 100%;
+    color: #fff;
+    background-color: #22d1b5;
+    margin-top: 5rem;
+}
+.btn:hover {
+    background: #2db9a9;
+    color: #c6cad4;
+}
+.copyright p{
+    color: #77787a ;
+    
+
+}

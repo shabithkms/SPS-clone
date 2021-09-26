@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/form.css" />
+    <title>Register for SPS</title>
+</head>
+
+<body>
+    <div class="registrationheader">
+        <div class="container">
+            <div class="row d-flex justify-content-center col-lg-12" style="width: 100%">
+                <div class="header">
+                    <div class="container">
+                        <div class="row">
+                            <p class="h2">SPS<span style="color: #22d1b5;">.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="regform" style="width: 100%; background-color: #f6f6f6">
+        <div class="container" style="padding: 10px">
+            <div class="row justify-content-center">
+                <div class="redcard col-lg-10 justify-content-center">
+                    <div class="form">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2 class="title">REGISTRATION</h2>
+                                </div>
+                            </div>
+                            <form action="" id="form" autocomplete="off" method="GET">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                   
+                                    <input type="text" name="name" class="border-bottom" placeholder="Full name">
+                                    <label for="name" generated="true" class="error"></label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6">
+                                   
+                                    <input type="text" class="border-bottom" name="place" id="place"
+                                        placeholder="Place">
+                                        <label for="place" generated="true" class="error"></label>
+
+                                </div>
+                                <div class="col-md-6 col-lg-6 ">
+                                   
+                                    <select name="gender" id="gender" >
+                                        <option disabled="disabled" selected="selected">Gender</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
+                                    <label for="gender" generated="true" class="error"></label>
+                                    <hr>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                   
+                                    <input type="email" id="email" name="email" placeholder="Email"
+                                        class="border-bottom">
+                                        <label for="email" generated="true" class="error"></label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6">
+                                   
+                                    <input type="tel" class="border-bottom" name="number" id="number"
+                                        placeholder="Contact No">
+                                        <label for="number" generated="true" class="error"></label>
+
+                                </div>
+                                <div class="col-md-6 col-lg-6 ">
+                                    
+                                    <select name="employment" id="employment" >
+                                        <option value="" disabled selected>Employment Status</option>
+                                        <option value="Employed">Employed</option>
+                                        <option value="Fresher">Fresher</option>
+                                        <option value="Student">Student</option>
+                                    </select>
+                                    <label for="employment" generated="true" class="error"></label>
+                                    <hr>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 ">
+                                   
+                                    <select name="qualification" id="qualification" >
+                                        <option disabled="disabled" selected="selected">Educational Qualification</option>
+                                        <option value="B.Tech">B.Tech</option>
+                                        <option value="M.Tech">M.Tech</option>
+                                        <option value="BCA/MCA">BCA/MCA</option>
+                                        <option value="Bsc/Msc">Bsc/Msc</option>
+                                        <option value="Diploma">Diploma</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                    <label for="qualification" generated="true" class="error"></label>
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 ">
+                                   
+                                    <input type="text" class="border-bottom" id="college" name="college"
+                                        placeholder="Name of Your College / Organisation">
+                                        <label for="college" generated="true" class="error"></label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6">
+                                    
+                                    <input type="number" class="border-bottom" name="graduation"
+                                        id="graduation-year" placeholder="Year of Graduation">
+                                        <label for="graduation" generated="true" class="error"></label>
+
+                                </div>
+                                <div class="col-md-6 col-lg-6 ">
+
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 border-bottom">
+                                    <!-- <label for="bio" generated="true" class="error"></label> -->
+                                    <textarea name="bio" id="bio" placeholder="Tell Us More About You"></textarea>
+                                    <label for="bio" generated="true" class="error"></label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 border-bottom">
+                                    
+                                    <textarea name="joinSps" id="joinSps" placeholder="why do you want to join SPS?"></textarea>
+                                    <label for="joinSps" generated="true" class="error"></label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 border-bottom">
+                                    
+                                    <textarea name="motive" id="motive"
+                                        placeholder="What motivates you to work hard every day?"></textarea>
+                                        <label for="motive" generated="true" class="error"></label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 ">
+                                    
+                                    <select name="learnSps" id="learnSps"  >
+                                        <option disabled="disabled" selected="selected">From where did you learn about SPS</option>
+                                        <option value="Crossroads">CrossRoads Youtube Channel</option>
+                                        <option value="Youtube">Youtube</option>
+                                        <option value="Friends">Friends</option>
+                                        <option value="Whatsapp Group">Whatsapp Group</option>
+
+                                    </select>
+                                    <label for="learnSps" generated="true" class="error"></label>
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 border-bottom d-flex ">
+                                    <span class="faqagree">
+                                       
+                                        <input type="checkbox" name="agree" id="agree"> &nbsp;
+                                        <label for="agree" generated="true" class="error"></label>
+
+
+                                        I agree that I have read and understood all <a
+                                            href="index.html#faq">FAQs</a></span>
+
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-lg-12">
+                                    <input type="submit" class="btn" value="REGISTER">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 copyright text-center mb-5 mt-5">
+                <p>Copyright ©Packapeer Academy Pvt Ltd 2021</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="js/form.js"></script>
+</body>
+
+</html>
